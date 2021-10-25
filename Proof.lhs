@@ -3,12 +3,12 @@ Proof Main Module
 > module Main where
 > import Prelude hiding ((+), (*))
 
-The Peano Postulates
-1. There is a number called 1.
+The Peano Axioms
+1. There is a number called 0.
 2. Every number has a successor, a natural number that comes after it.
-3. The number 1 is not the successor of any natural number.
+3. The number 0 is not the successor of any natural number.
 4. If two natural numbers are different, their successors are different.
-5. If we have a set A of natural numbers that contains 1 and also contains...
+5. If we have a set A of natural numbers that contains 0 and also contains...
   the successor of all of its elements, then A is all the natural numbers.
 
 > data Nat = Z | S Nat
